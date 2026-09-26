@@ -22,5 +22,28 @@ Collatz conjecture is the theory that by doing a constant equation to every sing
 
 \newpage
 
+## Question 3
+
+#### a.
+
+This function is taking 10 random positive integers, IE the n=10 and then does the two collatz equations to them until they get to one and depending on what the equation does to the number, it makes the line move in different directions. The color "blue" also made the lines blue.
+
+#### b.
+
+1.Because it gives different random positive integers each time you run the code
+
+2.Because each time the code is run, it generates a different photo
+
+3. Set.seed can be used to ensure the graph looks the same because it designates a specific random number generation which applies to every running of the code. So it doesn't change.
+
+```{r}
+canvas_collatz(
+  set.seed(14),
+  colors = c("blue"),
+  n = 10
+)
+```
+
+
 
 
