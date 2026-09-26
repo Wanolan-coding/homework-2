@@ -1,0 +1,16 @@
+---
+title: "Homework-2"
+format: pdf
+---
+# Packages
+
+## Question 1
+```{r}
+#| echo: true
+#| eval: false
+install.packages("artsy")
+```
+The difference between install.packages and library is that install packages is pluged into your console on r and permanently downloads a package onto your computer, it only needs to done once as well. Unlike library which is needed whenever you want to call specific data set values without listing the data set. This is needed whenever a new file/project is being used.
+
+\newpage 
+
