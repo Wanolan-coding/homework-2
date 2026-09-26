@@ -14,3 +14,13 @@ The difference between install.packages and library is that install packages is 
 
 \newpage 
 
+## Question 2
+```{r}
+library(aRtsy)
+```
+Collatz conjecture is the theory that by doing a constant equation to every single number ever, it will eventually arrive at one. There are two parts of it, if the number is even,$n/2$ until you achieve 1. But if the number is odd, the equation is $3n+1$ until the fraction is even and then do $/2$ again. Continue this process until you arrive at 1.
+
+\newpage
+
+
+
