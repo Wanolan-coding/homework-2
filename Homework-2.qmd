@@ -44,6 +44,16 @@ canvas_collatz(
 )
 ```
 
+\newpage
 
+## Question 4
+
+This code appears to do the same thing as the previous function except it makes the function affect 1 through 20 positive random integers and then stays with that amount for every running of the code. This causes the lines to not change no matter how many times the code is run. Set.seed wouldn't be nessesary here because the lines don't need to be set to a specific formation, they already are.
+```{r}
+canvas_collatz(
+  colors = c("blue"),
+  n = 1:20
+)
+```
 
 
